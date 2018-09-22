@@ -2,7 +2,7 @@
 
 ##Assign existing hostname to $hostn
 hostname_current=$(cat /etc/hostname)
-hostname_new="bbq"
+hostname_new="q-meter"
 
 ##change hostname in /etc/hosts & /etc/hostname
 sudo sed -i "s/$hostname_current/$hostname_new/g" /etc/hosts
@@ -36,13 +36,13 @@ ufw --force enable
 mkdir q-meter
 cd q-meter
 
-sudo pip install RPi.GPIO
+sudo pip3 install RPi.GPIO
 
 ##create a folder to store adafruit library files. download and install
 mkdir adafruit_python_max31855
 git clone https://github.com/adafruit/Adafruit_Python_MAX31855.git adafruit_python_max31855
 cd adafruit_python_max31855
-python setup.py install
+python3 setup.py install
 cd ..
 
 reboot
