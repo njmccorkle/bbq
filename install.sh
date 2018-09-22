@@ -36,6 +36,9 @@ ufw allow http
 #ufw allow 8888  #chronograf
 ufw --force enable
 
+mkdir q-meter
+cd q-meter
+
 ##create a folder to store adafruit library files. download and install
 mkdir adafruit_python_max31855
 git clone https://github.com/adafruit/Adafruit_Python_MAX31855.git adafruit_python_max31855
