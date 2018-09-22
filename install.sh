@@ -11,7 +11,7 @@ sudo sed -i "s/$hostname_current/$hostname_new/g" /etc/hostname
 ##update from repos, upgrade, and install
 apt-get -y update
 apt-get -y upgrade
-apt-get -y install build-essential python3-dev python3-pip python3-smbus git nginx ufw python3-rpi.gpio
+apt-get -y install build-essential vim python3-dev python3-pip python3-smbus git nginx ufw python3-rpi.gpio
 apt-get -y autoremove
 
 ##add influxdb, chronograf, telegraf
