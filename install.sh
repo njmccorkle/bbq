@@ -12,6 +12,7 @@ sudo sed -i "s/$hostname_current/$hostname_new/g" /etc/hostname
 apt-get -y update
 apt-get -y upgrade
 apt-get -y install build-essential python3-dev python3-pip python3-smbus git nginx ufw python3-rpi.gpio
+apt-get -y autoremove
 
 ##add influxdb, chronograf, telegraf
 #curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
