@@ -4,10 +4,6 @@
 hostname_current=$(cat /etc/hostname)
 hostname_new="bbq"
 
-##enable and start SSH
-systemctl enable ssh
-systemctl start ssh
-
 ##change hostname in /etc/hosts & /etc/hostname
 sudo sed -i "s/$hostname_current/$hostname_new/g" /etc/hosts
 sudo sed -i "s/$hostname_current/$hostname_new/g" /etc/hostname
