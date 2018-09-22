@@ -14,3 +14,4 @@ dpkg-reconfigure -f noninteractive tzdata
 
 
 wget https://raw.githubusercontent.com/njmccorkle/bbq/master/install.sh
+chmod +x install.sh
