@@ -15,4 +15,4 @@ apt-get install -y git
 git config --global user.email "njmccorkle@gmail.com"
 git config --global user.name "Nathan McCorkle"
 
-git clone https://github.com/njmccorkle/q-meter.git
+#git clone https://github.com/njmccorkle/q-meter.git
