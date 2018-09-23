@@ -1,0 +1,10 @@
+[Unit]
+Description=uWSGI instance to serve qmeter
+After=network.target
+
+[Service]
+User=pi
+Group=www-data
+WorkingDirectory=/home/pi/qmeter
+Environment="PATH=/home/pi/qmeter/bin/"
+ExecStart=/home/pi/qmeter/bin/uwsgi --ini qmeter.ini
