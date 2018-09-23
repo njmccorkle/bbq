@@ -1,2 +1,2 @@
-#sudo install/setup_system.sh
-install/setup_venv.sh
+#sudo setup/setup_system.sh
+setup/setup_venv.sh
