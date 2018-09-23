@@ -10,8 +10,9 @@ scp -o StrictHostKeyChecking=no root@freenas:///mnt/Storage/conf/authorized_keys
 echo "America/Chicago" > /etc/timezone    
 dpkg-reconfigure -f noninteractive tzdata
 
+apt-get install -y git
 
+git config --global user.email "njmccorkle@gmail.com"
+git config --global user.name "Nathan McCorkle"
 
-
-wget https://raw.githubusercontent.com/njmccorkle/bbq/master/install.sh
-chmod +x install.sh
+git clone https://github.com/njmccorkle/q-meter.git
