@@ -2,7 +2,7 @@
 
 ##Assign existing hostname to $hostn
 #hostname_current=$(cat /etc/hostname)
-#hostname_new="q-meter"
+#hostname_new="qmeter"
 
 ##change hostname in /etc/hosts & /etc/hostname
 #sudo sed -i "s/$hostname_current/$hostname_new/g" /etc/hosts
