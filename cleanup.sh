@@ -3,4 +3,6 @@ rm -rf bin/
 rm -rf include/
 rm -rf lib/
 rm -rf pip-selfcheck.json
+rm -rf __pycache__
+
 

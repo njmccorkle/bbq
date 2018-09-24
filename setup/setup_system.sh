@@ -19,4 +19,7 @@
 #ufw allow http
 #ufw --force enable
 
-
+cp /home/pi/qmeter/files/qmeter.service /etc/systemd/system/qmeter.service
+systemctl daemon-reload
+systemctl enable qmeter.service
+systemctl start qmeter.service
