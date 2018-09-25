@@ -1,9 +1,9 @@
 server {
     listen 80;
-    server_name qmeter.mccorkle.co;
+    server_name test.mccorkle.co;
 
     location / {
         include uwsgi_params;
-        uwsgi_pass unix:/home/pi/qmeter/myproject.sock;
+        uwsgi_pass unix:/home/pi/qmeter/qmeter.sock;
     }
 }
