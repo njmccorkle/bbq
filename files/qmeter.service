@@ -1,5 +1,5 @@
 [Unit]
-Description=uWSGI instance to serve qmeter
+Description=uWSGI instance to serve myproject
 After=network.target
 
 [Service]

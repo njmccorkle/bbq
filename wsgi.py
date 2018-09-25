@@ -1,4 +1,4 @@
-from qmeter import qmeter
+from qmeter import app 
 
 if __name__ == "__main__":
-    qmeter.run()
+    app.run()
