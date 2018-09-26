@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name test.mccorkle.co;
+    server_name qmeter.mccorkle.co;
 
     location / {
         include uwsgi_params;
