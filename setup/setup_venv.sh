@@ -13,3 +13,5 @@ cd adafruit_python_max31855
 cd ..
 
 ~/qmeter/bin/pip install uwsgi flask
+~/qmeter/bin/pip install flask
+~/qmeter/bin/pip install flask-wtf
