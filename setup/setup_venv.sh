@@ -16,3 +16,4 @@ cd ..
 ~/qmeter/bin/pip install flask
 ~/qmeter/bin/pip install flask-wtf
 ~/qmeter/bin/pip install flask-sqlalchemy
+~/qmeter/bin/pip install flask-migrate
