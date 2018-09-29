@@ -15,3 +15,4 @@ cd ..
 ~/qmeter/bin/pip install uwsgi flask
 ~/qmeter/bin/pip install flask
 ~/qmeter/bin/pip install flask-wtf
+~/qmeter/bin/pip install flask-sqlalchemy
